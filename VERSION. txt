@@ -1,0 +1,44 @@
+# Rubain Version History
+
+## Version 3.1.2a (Date: 2024-10-25)
+### Enhancements and Features:
+- **AI Integration**: Added AI-like functionality to enhance user experience across various commands.
+  - Natural language processing for commands, allowing more conversational input.
+  - Example: Users can now input "ping Google" instead of the strict command format.
+  
+- **Error Handling Improvements**: 
+  - Enhanced error messages for commands like `cd`, `ping`, and `ls` to provide clearer feedback.
+  - Implemented checks for command validity before execution.
+
+- **Command Processing Enhancements**:
+  - Centralized command execution logic to streamline the addition of new commands.
+  - Regular expressions used to parse user input for flexibility and natural interaction.
+
+- **User Interaction Improvements**:
+  - Informative responses for ambiguous commands or unknown commands, guiding users to valid options.
+  - Suggestions for common commands when input is not recognized.
+
+- **File Management**:
+  - Users can create new files with `newfile <filename>` command with a clear message on file creation.
+  
+### Bug Fixes:
+- Fixed potential crashes due to unhandled exceptions during command execution.
+- Addressed issues with directory changes by providing clear error messages when paths do not exist.
+
+### General Improvements:
+- Updated command prompts for clarity and consistency.
+- Streamlined code for command handling to reduce redundancy and improve maintainability.
+
+---
+
+## Previous Versions:
+
+### Version 3.1.1a (Date: 2024-10-20)
+- **New Text Editor**: Integrated RubyWord for text editing, featuring line numbering, text navigation, and undo/redo operations.
+- **Task Manager**: Introduced an AI-enhanced task manager for managing scheduled tasks.
+- **Utilities Apps**: Developed utilities for image writing, USB management, and basic CLI tasks.
+- **Enhanced Shell Functionality**: Improved navigation commands and user interaction.
+
+### Version 3.10 (Date: 2024-10-15)
+- Initial release of Rubain shell with basic command line functionalities and Ruby integration.
+- Set up basic utilities and shell command handling.
